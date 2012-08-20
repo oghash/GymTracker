@@ -1,0 +1,34 @@
+<%= form_for(@session_routine) do |f| %>
+  <% if @session_routine.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@session_routine.errors.count, "error") %> prohibited this session_routine from being saved:</h2>
+
+      <ul>
+      <% @session_routine.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :session %><br />
+    <%= f.text_field :session %>
+  </div>
+
+  <div class="field">
+    <%= f.label :routine %><br />
+    <%= f.text_field :routine %>
+  </div>
+  <div class="field">
+    <%= f.label :weight %><br />
+    <%= f.text_field :weight %>
+  </div>
+  <div class="field">
+    <%= f.label :reps %><br />
+    <%= f.text_field :reps %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

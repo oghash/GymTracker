@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Session:</b>
+  <%= @session_routine.session %>
+</p>
+
+<p>
+  <b>Routine:</b>
+  <%= @session_routine.routine %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%= @session_routine.weight %>
+</p>
+
+<p>
+  <b>Reps:</b>
+  <%= @session_routine.reps %>
+</p>
+
+
+<%= link_to 'Edit', edit_session_routine_path(@session_routine) %> |
+<%= link_to 'Back', session_routines_path %>
