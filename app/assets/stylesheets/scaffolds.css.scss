@@ -31,10 +31,11 @@ a {
 
 div {
   &.field {
-      display: inline;
+    display: inline;
     margin-right: 10px;
   }
   &.actions {
+    display: inline;
     margin-bottom: 10px;
   }
 }

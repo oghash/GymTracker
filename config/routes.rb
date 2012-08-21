@@ -1,5 +1,8 @@
 GymTracker::Application.routes.draw do
+  root :to => "session_routines#new"
+
   resources :session_routines
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

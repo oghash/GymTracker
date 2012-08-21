@@ -19,19 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/session_routines/_form.html.erb">
+      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/session_routines/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="673" selection-end="673" vertical-scroll-proportion="-15.038462">
+            <state line="3" column="6" selection-start="45" selection-end="45" vertical-scroll-proportion="0.096958175">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/session_routines/new.html.erb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/session_routines/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="-0.0">
+            <state line="27" column="22" selection-start="759" selection-end="759" vertical-scroll-proportion="-16.346153">
               <folding />
             </state>
           </provider>
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scaffolds.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="scaffolds.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="20" selection-start="590" selection-end="590" vertical-scroll-proportion="0.83152175">
+            <state line="37" column="20" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,7 +68,12 @@
         <entry file="file://$PROJECT_DIR$/app/views/session_routines/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="30" selection-start="86" selection-end="86" vertical-scroll-proportion="-2.6153846">
-              <folding />
+              <folding>
+                <marker date="1345510028684" expanded="true" signature="36:93" placeholder="..." />
+                <marker date="1345510028684" expanded="true" signature="98:155" placeholder="..." />
+                <marker date="1345510028684" expanded="true" signature="160:215" placeholder="..." />
+                <marker date="1345510028684" expanded="true" signature="220:271" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,6 +82,15 @@
         <entry file="file://$PROJECT_DIR$/app/views/session_routines/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="40" selection-start="333" selection-end="333" vertical-scroll-proportion="-10.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="35" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,9 +132,11 @@
         <option value="$PROJECT_DIR$/app/views/session_routines/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/session_routines_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/session.rb" />
-        <option value="$PROJECT_DIR$/app/views/session_routines/new.html.erb" />
+        <option value="$USER_HOME$/.gitconfig" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/session_routines/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/session_routines/new.html.erb" />
       </list>
     </option>
   </component>
@@ -148,7 +164,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -378,8 +394,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.gitconfig" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Rails.Development: GymTracker">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -432,6 +453,13 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -522,6 +550,24 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1f47c285-f232-4366-b9cc-25fe2270e57f" name="Default" comment="" />
@@ -606,20 +652,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120819225133_create_routines.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20120819225207_create_sessions.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="18" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
@@ -648,6 +680,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/session_routines/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="86" selection-end="86" vertical-scroll-proportion="-2.6153846">
+          <folding>
+            <marker date="1345510028684" expanded="true" signature="36:93" placeholder="..." />
+            <marker date="1345510028684" expanded="true" signature="98:155" placeholder="..." />
+            <marker date="1345510028684" expanded="true" signature="160:215" placeholder="..." />
+            <marker date="1345510028684" expanded="true" signature="220:271" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/session_routines_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="40" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
@@ -655,9 +706,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/session_routines/edit.html.erb">
+    <entry file="file://$USER_HOME$/.gitconfig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="143" vertical-scroll-proportion="-0.0">
+        <state line="14" column="23" selection-start="252" selection-end="252" vertical-scroll-proportion="0.4311594">
           <folding />
         </state>
       </provider>
@@ -669,9 +720,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/session_routines/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/session_routines/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="86" selection-end="86" vertical-scroll-proportion="-2.6153846">
+        <state line="0" column="0" selection-start="0" selection-end="143" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
@@ -683,6 +734,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="35" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/session_routines.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -690,30 +748,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/session_routines/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+        <state line="37" column="20" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/session_routines/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="673" selection-end="673" vertical-scroll-proportion="-15.038462">
+        <state line="27" column="22" selection-start="759" selection-end="759" vertical-scroll-proportion="-16.346153">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/session_routines/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="20" selection-start="590" selection-end="590" vertical-scroll-proportion="0.83152175">
+        <state line="3" column="6" selection-start="45" selection-end="45" vertical-scroll-proportion="0.096958175">
           <folding />
         </state>
       </provider>
