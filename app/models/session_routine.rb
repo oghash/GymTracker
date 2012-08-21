@@ -8,6 +8,9 @@ class SessionRoutine < ActiveRecord::Base
   validates :weight,  :presence => true
   validates :reps,    :presence => true
 
-
+#  def after_initialise(session, routine, weight, reps)
+#    puts "ERE"
+#    puts session << routine << weight << reps
+#  end
 
 end

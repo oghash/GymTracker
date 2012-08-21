@@ -40,10 +40,15 @@ class SessionRoutinesController < ApplicationController
   # POST /session_routines
   # POST /session_routines.json
   def create
-    #@session = Session.getInstance
-    @session_routine = SessionRoutine.new(:session => params[:session], :routine => params[:routine], :weight => params[:weight], :reps => params[:reps])
-    #@session_routine = SessionRoutine.new(:session => Session.find_last_by_id(params[:session_routine][:session]),
-    #                                      :routine => Routine.find_last_by_id(params[:session_routine][:routine]))
+    @session = Session.getInstance
+
+    if @session.id.nil?
+      @session.save
+    end
+
+    @routine = Routine.find_by_id(params[:session_routine][:routine])
+
+    @session_routine = SessionRoutine.new(:session => @session, :routine => @routine, :weight => params[:session_routine][:weight], :reps => params[:session_routine][:reps])
 
     respond_to do |format|
       if @session_routine.save

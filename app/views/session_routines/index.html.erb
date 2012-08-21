@@ -13,8 +13,8 @@
 
 <% @session_routines.each do |session_routine| %>
   <tr>
-    <td><%= session_routine.session %></td>
-    <td><%= session_routine.routine %></td>
+    <td><%= session_routine.session.updated_at %></td>
+    <td><%= session_routine.routine.name %></td>
     <td><%= session_routine.weight %></td>
     <td><%= session_routine.reps %></td>
     <td><%= link_to 'Show', session_routine %></td>
