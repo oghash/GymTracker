@@ -6,4 +6,12 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-routines = Routine.create([ { name: 'Bicep Curls'} ])
+routines = Routine.create(
+               [
+                   { name: 'Bicep Curls'},
+                   { name: 'Bench Press (Smith)'},
+                   { name: 'Incline DB'},
+                   { name: 'Dips'},
+                   { name: 'Cable Crossovers'}
+               ]
+           )
