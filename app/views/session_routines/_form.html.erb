@@ -12,20 +12,16 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :session %><br />
-    <%= f.text_field :session %>
+   <%= f.label :routine %>
+   <%= f.select :routine, Routine.all.map { |routine| [routine.name, routine.id] } %>
   </div>
 
   <div class="field">
-    <%= f.label :routine %><br />
-    <%= f.text_field :routine %>
-  </div>
-  <div class="field">
-    <%= f.label :weight %><br />
+    <%= f.label :weight %>
     <%= f.text_field :weight %>
   </div>
   <div class="field">
-    <%= f.label :reps %><br />
+    <%= f.label :reps %>
     <%= f.text_field :reps %>
   </div>
   <div class="actions">

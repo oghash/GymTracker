@@ -7,6 +7,7 @@ class Session < ActiveRecord::Base
       session = previous_session
     else
       session = self.new
+      session.save
     end
 
     return session

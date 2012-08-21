@@ -42,10 +42,6 @@ class SessionRoutinesController < ApplicationController
   def create
     @session = Session.getInstance
 
-    if @session.id.nil?
-      @session.save
-    end
-
     @routine = Routine.find_by_id(params[:session_routine][:routine])
 
     @session_routine = SessionRoutine.new(:session => @session, :routine => @routine, :weight => params[:session_routine][:weight], :reps => params[:session_routine][:reps])
