@@ -13,16 +13,16 @@
 
   <div class="field">
    <%= f.label :routine %>
-   <%= f.select :routine, Routine.all.map { |routine| [routine.name, routine.id] } %>
+   <%= f.select :routine, Routine.all.map { |routine| [routine.name, routine.id] }, :selected => @last_routine.id  %>
   </div>
 
   <div class="field">
     <%= f.label :weight %>
-    <%= f.text_field :weight %>
+    <%= f.text_field :weight, :size => 4 %>
   </div>
   <div class="field">
     <%= f.label :reps %>
-    <%= f.text_field :reps %>
+    <%= f.text_field :reps, :size => 4 %>
   </div>
   <div class="actions">
     <%= f.submit "Save" %>

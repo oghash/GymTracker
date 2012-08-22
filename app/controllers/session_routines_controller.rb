@@ -26,6 +26,12 @@ class SessionRoutinesController < ApplicationController
   def new
     @session_routine = SessionRoutine.new
 
+    if SessionRoutine.last
+      @last_routine = SessionRoutine.last.routine
+    else
+      @last_routine = Routine.first
+    end
+
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @session_routine }
